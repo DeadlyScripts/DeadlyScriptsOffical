@@ -3,60 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Website</title>
+  <title>Home - My Personal Website</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    header {
-      background: #4a90e2;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    main {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 40px;
-    }
-    main h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    main p {
-      font-size: 18px;
-      color: #555;
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
-    }
+    body { margin:0; font-family: Arial, sans-serif; background:#f4f4f9; color:#333; }
+    header { background:#4a90e2; color:white; padding:15px; text-align:center; }
+    nav a { color:white; margin:0 10px; text-decoration:none; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+    main { text-align:center; padding:40px; }
+    footer { background:#222; color:white; text-align:center; padding:15px; font-size:14px; }
   </style>
 </head>
 <body>
   <header>
-    My Personal Website
+    <h2>My Personal Website</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-  
+
   <main>
-    <div>
-      <h1>Welcome!</h1>
-      <p>This is my personal homepage. More coming soon 🚀</p>
-    </div>
+    <h1>Welcome!</h1>
+    <p>This is my personal homepage. More coming soon 🚀</p>
   </main>
 
   <footer>
